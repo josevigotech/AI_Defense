@@ -1,0 +1,273 @@
+Nov  9 16:49:42 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=127) by (uid=0)
+Nov  9 16:49:42 Dev systemd-logind[756]: New session c1 of user gdm.
+Nov  9 16:49:42 Dev systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=127) by (uid=0)
+Nov  9 16:49:51 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  9 16:49:56 Dev gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=langosta
+Nov  9 16:50:08 Dev dbus-daemon[708]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov  9 16:50:16 Dev gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=langosta
+Nov  9 16:50:26 Dev gdm-password]: gkr-pam: unable to locate daemon control file
+Nov  9 16:50:26 Dev gdm-password]: gkr-pam: stashed password to try later in open session
+Nov  9 16:50:26 Dev gdm-password]: pam_unix(gdm-password:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov  9 16:50:26 Dev systemd-logind[756]: New session 2 of user langosta.
+Nov  9 16:50:26 Dev systemd: pam_unix(systemd-user:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov  9 16:50:26 Dev gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov  9 16:50:26 Dev gnome-keyring-daemon[1800]: The Secret Service was already initialized
+Nov  9 16:50:26 Dev gnome-keyring-daemon[1800]: The SSH agent was already initialized
+Nov  9 16:50:26 Dev gnome-keyring-daemon[1800]: The PKCS#11 component was already initialized
+Nov  9 16:50:27 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  9 16:50:29 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov  9 16:50:29 Dev systemd-logind[756]: Session c1 logged out. Waiting for processes to exit.
+Nov  9 16:50:29 Dev systemd-logind[756]: Removed session c1.
+Nov  9 16:50:29 Dev polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  9 16:50:52 Dev dbus-daemon[708]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov  9 16:51:32 Dev pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov  9 16:51:32 Dev pkexec[2720]: langosta: Executing command [USER=root] [TTY=unknown] [CWD=/home/langosta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  9 17:00:36 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta/Desktop/Java Shit ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Nov  9 17:00:36 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 01:39:06 Dev systemd-logind[716]: New seat seat0.
+Nov 13 01:39:06 Dev systemd-logind[716]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 13 01:39:06 Dev systemd-logind[716]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 13 01:39:06 Dev systemd-logind[716]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 13 01:39:06 Dev useradd[919]: failed adding user 'vboxadd', data deleted
+Nov 13 01:39:06 Dev useradd[922]: failed adding user 'vboxadd', data deleted
+Nov 13 01:39:07 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 01:39:07 Dev systemd-logind[716]: New session c1 of user gdm.
+Nov 13 01:39:07 Dev systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 01:39:10 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 01:39:28 Dev gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 13 01:39:28 Dev gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 13 01:39:28 Dev gdm-password]: pam_unix(gdm-password:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 01:39:28 Dev systemd-logind[716]: New session 2 of user langosta.
+Nov 13 01:39:28 Dev systemd: pam_unix(systemd-user:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 01:39:28 Dev gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 13 01:39:28 Dev gnome-keyring-daemon[1746]: The Secret Service was already initialized
+Nov 13 01:39:28 Dev gnome-keyring-daemon[1746]: The PKCS#11 component was already initialized
+Nov 13 01:39:28 Dev gnome-keyring-daemon[1746]: The SSH agent was already initialized
+Nov 13 01:39:30 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 01:39:32 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 13 01:39:32 Dev systemd-logind[716]: Session c1 logged out. Waiting for processes to exit.
+Nov 13 01:39:32 Dev systemd-logind[716]: Removed session c1.
+Nov 13 01:39:32 Dev polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 13 01:39:33 Dev dbus-daemon[668]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 13 01:39:42 Dev systemd: pam_unix(systemd-user:session): session closed for user gdm
+Nov 13 01:40:35 Dev pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 01:40:35 Dev pkexec[2631]: langosta: Executing command [USER=root] [TTY=unknown] [CWD=/home/langosta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 13 01:47:11 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 01:47:21 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 13 01:47:21 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 01:47:42 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 01:47:48 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Nov 13 01:47:48 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 01:49:37 Dev pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 01:49:37 Dev pkexec[3332]: langosta: Executing command [USER=root] [TTY=unknown] [CWD=/home/langosta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 13 01:54:51 Dev slapd[1179]: DIGEST-MD5 common mech free
+Nov 13 01:54:51 Dev slapd[1179]: DIGEST-MD5 common mech free
+Nov 13 01:57:49 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 01:58:09 Dev systemd-logind[716]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 13 01:58:09 Dev systemd-logind[716]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 13 01:58:09 Dev systemd-logind[716]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 13 01:58:45 Dev groupadd[20609]: group added to /etc/group: name=fwupd-refresh, GID=137
+Nov 13 01:58:45 Dev groupadd[20609]: group added to /etc/gshadow: name=fwupd-refresh
+Nov 13 01:58:45 Dev groupadd[20609]: new group: name=fwupd-refresh, GID=137
+Nov 13 01:58:46 Dev useradd[20615]: new user: name=fwupd-refresh, UID=129, GID=137, home=/run/systemd, shell=/usr/sbin/nologin, from=/dev/pts/2
+Nov 13 01:58:46 Dev usermod[20622]: change user 'fwupd-refresh' password
+Nov 13 01:58:46 Dev chage[20629]: changed password expiry for fwupd-refresh
+Nov 13 01:58:46 Dev chfn[20633]: changed user 'fwupd-refresh' information
+Nov 13 02:00:24 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 02:01:34 Dev pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 02:01:34 Dev pkexec[41950]: langosta: Executing command [USER=root] [TTY=unknown] [CWD=/home/langosta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 13 02:09:30 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 02:09:40 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Nov 13 02:09:40 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 02:09:41 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 02:17:01 Dev CRON[42084]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 02:17:01 Dev CRON[42084]: pam_unix(cron:session): session closed for user root
+Nov 13 02:22:33 Dev pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 02:22:33 Dev pkexec[42097]: langosta: Executing command [USER=root] [TTY=unknown] [CWD=/home/langosta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 13 02:28:49 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 02:53:05 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 03:04:38 Dev gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=langosta
+Nov 13 03:04:53 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 03:07:47 Dev sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=langosta rhost=  user=langosta
+Nov 13 03:07:49 Dev sudo: langosta : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt disable tomcat
+Nov 13 03:08:04 Dev sudo: langosta : TTY=pts/1 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/systemctl disable tomcat.service
+Nov 13 03:08:04 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 03:08:04 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 03:08:13 Dev sudo: langosta : TTY=pts/1 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/systemctl stop tomcat.service
+Nov 13 03:08:13 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 03:08:14 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 03:10:01 Dev CRON[43313]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 03:10:01 Dev CRON[43313]: pam_unix(cron:session): session closed for user root
+Nov 13 03:17:01 Dev CRON[44309]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 03:17:01 Dev CRON[44309]: pam_unix(cron:session): session closed for user root
+Nov 13 03:25:17 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 03:30:01 Dev CRON[45787]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 03:30:01 Dev CRON[45787]: pam_unix(cron:session): session closed for user root
+Nov 13 03:44:05 Dev sudo: langosta : TTY=pts/2 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt search open-jdk
+Nov 13 03:44:05 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 03:44:05 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 03:44:12 Dev sudo: langosta : TTY=pts/2 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt list open-jdk
+Nov 13 03:44:12 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 03:44:13 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 03:54:08 Dev sudo: pam_unix(sudo:auth): conversation failed
+Nov 13 03:54:08 Dev sudo: pam_unix(sudo:auth): auth could not identify password for [langosta]
+Nov 13 04:17:01 Dev CRON[50597]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 04:17:01 Dev CRON[50597]: pam_unix(cron:session): session closed for user root
+Nov 13 04:32:35 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 04:48:43 Dev sudo: langosta : TTY=pts/2 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt search react
+Nov 13 04:48:43 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 04:48:44 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 04:55:50 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 05:17:01 Dev CRON[55714]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 05:17:01 Dev CRON[55714]: pam_unix(cron:session): session closed for user root
+Nov 13 05:51:01 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 05:52:05 Dev sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=langosta rhost=  user=langosta
+Nov 13 05:52:11 Dev sudo: langosta : TTY=pts/1 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Nov 13 05:52:11 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 10:51:29 Dev systemd-logind[710]: New seat seat0.
+Nov 13 10:51:29 Dev systemd-logind[710]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 13 10:51:29 Dev systemd-logind[710]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 13 10:51:29 Dev systemd-logind[710]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 13 10:51:30 Dev useradd[899]: failed adding user 'vboxadd', data deleted
+Nov 13 10:51:30 Dev useradd[912]: failed adding user 'vboxadd', data deleted
+Nov 13 10:51:30 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 10:51:30 Dev systemd-logind[710]: New session c1 of user gdm.
+Nov 13 10:51:30 Dev systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 10:51:33 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 10:51:41 Dev gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 13 10:51:41 Dev gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 13 10:51:41 Dev gdm-password]: pam_unix(gdm-password:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 10:51:41 Dev systemd-logind[710]: New session 2 of user langosta.
+Nov 13 10:51:42 Dev systemd: pam_unix(systemd-user:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 10:51:42 Dev gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 13 10:51:42 Dev gnome-keyring-daemon[1661]: The Secret Service was already initialized
+Nov 13 10:51:42 Dev gnome-keyring-daemon[1661]: The PKCS#11 component was already initialized
+Nov 13 10:51:42 Dev gnome-keyring-daemon[1661]: The SSH agent was already initialized
+Nov 13 10:51:44 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 10:51:46 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 13 10:51:46 Dev systemd-logind[710]: Session c1 logged out. Waiting for processes to exit.
+Nov 13 10:51:46 Dev systemd-logind[710]: Removed session c1.
+Nov 13 10:51:46 Dev polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 13 10:51:56 Dev dbus-daemon[679]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 13 10:52:09 Dev sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=langosta rhost=  user=langosta
+Nov 13 10:52:19 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/bin/apt shutdown now
+Nov 13 10:52:19 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 10:52:19 Dev sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 10:52:25 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Nov 13 10:52:25 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 10:54:29 Dev systemd-logind[705]: New seat seat0.
+Nov 13 10:54:29 Dev systemd-logind[705]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 13 10:54:29 Dev systemd-logind[705]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 13 10:54:29 Dev systemd-logind[705]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 13 10:54:29 Dev useradd[891]: failed adding user 'vboxadd', data deleted
+Nov 13 10:54:29 Dev useradd[893]: failed adding user 'vboxadd', data deleted
+Nov 13 10:54:30 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 10:54:30 Dev systemd-logind[705]: New session c1 of user gdm.
+Nov 13 10:54:30 Dev systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 10:54:32 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 10:54:55 Dev dbus-daemon[672]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 13 11:00:11 Dev gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 13 11:00:11 Dev gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 13 11:00:11 Dev gdm-password]: pam_unix(gdm-password:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 11:00:11 Dev systemd-logind[705]: New session 2 of user langosta.
+Nov 13 11:00:11 Dev systemd: pam_unix(systemd-user:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 11:00:11 Dev gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 13 11:00:12 Dev gnome-keyring-daemon[1699]: The Secret Service was already initialized
+Nov 13 11:00:12 Dev gnome-keyring-daemon[1699]: The PKCS#11 component was already initialized
+Nov 13 11:00:12 Dev gnome-keyring-daemon[1699]: The SSH agent was already initialized
+Nov 13 11:00:13 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 11:00:15 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 13 11:00:15 Dev systemd-logind[705]: Session c1 logged out. Waiting for processes to exit.
+Nov 13 11:00:16 Dev systemd-logind[705]: Removed session c1.
+Nov 13 11:00:16 Dev polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 13 11:00:38 Dev dbus-daemon[672]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 13 11:06:42 Dev gdm-password]: gkr-pam: unlocked login keyring
+Nov 13 11:06:52 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Nov 13 11:06:52 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 13 11:19:45 Dev systemd-logind[690]: New seat seat0.
+Nov 13 11:19:45 Dev systemd-logind[690]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 13 11:19:45 Dev systemd-logind[690]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 13 11:19:45 Dev systemd-logind[690]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 13 11:19:46 Dev useradd[893]: failed adding user 'vboxadd', data deleted
+Nov 13 11:19:46 Dev useradd[895]: failed adding user 'vboxadd', data deleted
+Nov 13 11:19:46 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 11:19:46 Dev systemd-logind[690]: New session c1 of user gdm.
+Nov 13 11:19:46 Dev systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=127) by (uid=0)
+Nov 13 11:19:49 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 11:20:12 Dev dbus-daemon[657]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 13 11:24:39 Dev gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 13 11:24:39 Dev gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 13 11:24:39 Dev gdm-password]: pam_unix(gdm-password:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 11:24:39 Dev systemd-logind[690]: New session 2 of user langosta.
+Nov 13 11:24:39 Dev systemd: pam_unix(systemd-user:session): session opened for user langosta(uid=1000) by (uid=0)
+Nov 13 11:24:40 Dev gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 13 11:24:40 Dev gnome-keyring-daemon[1697]: The Secret Service was already initialized
+Nov 13 11:24:40 Dev gnome-keyring-daemon[1697]: The SSH agent was already initialized
+Nov 13 11:24:40 Dev gnome-keyring-daemon[1697]: The PKCS#11 component was already initialized
+Nov 13 11:24:42 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 13 11:24:43 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 13 11:24:43 Dev systemd-logind[690]: Session c1 logged out. Waiting for processes to exit.
+Nov 13 11:24:43 Dev systemd-logind[690]: Removed session c1.
+Nov 13 11:24:43 Dev polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 13 11:24:54 Dev systemd: pam_unix(systemd-user:session): session closed for user gdm
+Nov 13 11:25:06 Dev dbus-daemon[657]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 13 11:30:01 Dev CRON[4250]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 11:30:01 Dev CRON[4250]: pam_unix(cron:session): session closed for user root
+Nov 13 11:31:28 Dev sudo: langosta : TTY=pts/0 ; PWD=/home/langosta ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Nov 13 11:31:28 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb  2 11:04:06 Dev systemd-logind[739]: New seat seat0.
+Feb  2 11:04:06 Dev systemd-logind[739]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb  2 11:04:06 Dev systemd-logind[739]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb  2 11:04:06 Dev systemd-logind[739]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Feb  2 11:04:07 Dev useradd[912]: failed adding user 'vboxadd', data deleted
+Feb  2 11:04:07 Dev useradd[913]: failed adding user 'vboxadd', data deleted
+Feb  2 11:04:08 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=127) by (uid=0)
+Feb  2 11:04:08 Dev systemd-logind[739]: New session c1 of user gdm.
+Feb  2 11:04:08 Dev systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=127) by (uid=0)
+Feb  2 11:04:13 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb  2 11:04:26 Dev gdm-password]: gkr-pam: unable to locate daemon control file
+Feb  2 11:04:26 Dev gdm-password]: gkr-pam: stashed password to try later in open session
+Feb  2 11:04:26 Dev gdm-password]: pam_unix(gdm-password:session): session opened for user langosta(uid=1000) by (uid=0)
+Feb  2 11:04:26 Dev systemd-logind[739]: New session 2 of user langosta.
+Feb  2 11:04:26 Dev systemd: pam_unix(systemd-user:session): session opened for user langosta(uid=1000) by (uid=0)
+Feb  2 11:04:27 Dev gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Feb  2 11:04:27 Dev gnome-keyring-daemon[1669]: The SSH agent was already initialized
+Feb  2 11:04:27 Dev gnome-keyring-daemon[1669]: The Secret Service was already initialized
+Feb  2 11:04:27 Dev gnome-keyring-daemon[1669]: The PKCS#11 component was already initialized
+Feb  2 11:04:29 Dev polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.88 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb  2 11:04:33 Dev gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Feb  2 11:04:33 Dev systemd-logind[739]: Session c1 logged out. Waiting for processes to exit.
+Feb  2 11:04:33 Dev systemd-logind[739]: Removed session c1.
+Feb  2 11:04:33 Dev polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb  2 11:04:35 Dev dbus-daemon[695]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Feb  2 11:12:42 Dev sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=langosta rhost=  user=langosta
+Feb  2 11:12:47 Dev sudo: langosta : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/ufw status
+Feb  2 11:12:47 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb  2 11:12:47 Dev sudo: pam_unix(sudo:session): session closed for user root
+Feb  2 11:12:59 Dev sudo: langosta : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/ufw disable
+Feb  2 11:12:59 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb  2 11:12:59 Dev sudo: pam_unix(sudo:session): session closed for user root
+Feb  2 11:15:08 Dev sudo: langosta : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get install openssh-server
+Feb  2 11:15:08 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb  2 11:15:23 Dev useradd[5536]: new user: name=sshd, UID=130, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+Feb  2 11:15:23 Dev usermod[5543]: change user 'sshd' password
+Feb  2 11:15:23 Dev chage[5550]: changed password expiry for sshd
+Feb  2 11:15:24 Dev sshd[5651]: Server listening on 0.0.0.0 port 22.
+Feb  2 11:15:24 Dev sshd[5651]: Server listening on :: port 22.
+Feb  2 11:15:27 Dev sudo: pam_unix(sudo:session): session closed for user root
+Feb  2 11:15:57 Dev sudo: langosta : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/systemctl status sshd
+Feb  2 11:15:57 Dev sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb  2 11:15:57 Dev sudo: pam_unix(sudo:session): session closed for user root
+Feb  2 11:16:13 Dev sshd[5803]: Accepted password for langosta from 192.168.1.25 port 63030 ssh2
+Feb  2 11:16:13 Dev sshd[5803]: pam_unix(sshd:session): session opened for user langosta(uid=1000) by (uid=0)
+Feb  2 11:16:13 Dev systemd-logind[739]: New session 4 of user langosta.
+Feb  2 11:16:14 Dev sshd[5880]: Received disconnect from 192.168.1.25 port 63030:11: disconnected by user
+Feb  2 11:16:14 Dev sshd[5880]: Disconnected from user langosta 192.168.1.25 port 63030
+Feb  2 11:16:14 Dev sshd[5803]: pam_unix(sshd:session): session closed for user langosta
+Feb  2 11:16:14 Dev systemd-logind[739]: Session 4 logged out. Waiting for processes to exit.
+Feb  2 11:16:54 Dev systemd-logind[739]: Removed session 4.
+Feb  2 11:17:01 Dev CRON[5942]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb  2 11:17:01 Dev CRON[5942]: pam_unix(cron:session): session closed for user root
+Feb  2 11:17:37 Dev sshd[5950]: Accepted password for langosta from 192.168.1.25 port 63031 ssh2
+Feb  2 11:17:37 Dev sshd[5950]: pam_unix(sshd:session): session opened for user langosta(uid=1000) by (uid=0)
+Feb  2 11:17:37 Dev systemd-logind[739]: New session 6 of user langosta.
