@@ -7,7 +7,7 @@ import os
 st.set_page_config(page_title="SOC - IA Defensiva", layout="wide", page_icon="🛡️")
 
 # Estilo de título y subtítulo
-st.title("🛡️ SOC Dashboard - Inteligencia de Amenazas")
+st.title(" SOC Dashboard - Inteligencia de Amenazas")
 st.markdown("""
 Análisis de anomalías en tiempo real mediante **Isolation Forest**. 
 Este sistema detecta patrones sospechosos en logs de acceso y reglas de Firewall.
@@ -18,7 +18,7 @@ if os.path.exists('dashboard_datos.csv'):
     df = pd.read_csv('dashboard_datos.csv')
     
     # ---------------------------------------------------------
-    # 1. MÉTRICAS PRINCIPALES (KPIs)
+    # 1. MÉTRICAS PRINCIPALES KPIs
     # ---------------------------------------------------------
     col1, col2, col3, col4 = st.columns(4)
     
@@ -43,7 +43,7 @@ if os.path.exists('dashboard_datos.csv'):
     # 2. GEOLOCALIZACIÓN (MAPA MUNDIAL)
     # ---------------------------------------------------------
     if 'pais' in df.columns:
-        st.subheader("🌍 Origen Global de los Ataques")
+        st.subheader(" Origen Global de los Ataques")
         conteo_paises = df['pais'].value_counts().reset_index()
         conteo_paises.columns = ['pais', 'ataques']
         
@@ -67,7 +67,7 @@ if os.path.exists('dashboard_datos.csv'):
     fila_graficas_col1, fila_graficas_col2 = st.columns(2)
 
     with fila_graficas_col1:
-        st.subheader("🕒 Distribución por Hora")
+        st.subheader(" Distribución por Hora")
         fig_hora = px.histogram(
             df, x="hora", nbins=24, color="tipo",
             labels={'tipo': 'Tipo de Evento (1:Login, 2:FW)'},
@@ -77,7 +77,7 @@ if os.path.exists('dashboard_datos.csv'):
         st.plotly_chart(fig_hora, use_container_width=True)
 
     with fila_graficas_col2:
-        st.subheader("📉 Gravedad de Eventos (Score)")
+        st.subheader(" Gravedad de Eventos (Score)")
         # Cuanto más bajo el score, más "anómalo" es
         fig_score = px.scatter(
             df, x="fecha_registro", y="score", 
@@ -91,7 +91,7 @@ if os.path.exists('dashboard_datos.csv'):
     # 4. TABLA DE REGISTROS CRUDOS
     # ---------------------------------------------------------
     st.divider()
-    st.subheader("📋 Registro Detallado de Amenazas")
+    st.subheader(" Registro Detallado de Amenazas")
     
     # Seleccionamos las columnas que queremos mostrar
     columnas_mostrar = ['fecha_registro', 'hora', 'tipo', 'score']
@@ -106,5 +106,5 @@ if os.path.exists('dashboard_datos.csv'):
 
 else:
     # Mensaje en caso de que no existan datos todavía
-    st.info("👋 ¡Bienvenido! Aún no hay datos para mostrar.")
+    st.info(" ¡Bienvenido! Aún no hay datos para mostrar.")
     st.warning("Asegúrate de ejecutar **python ia_defensiva.py** para procesar los logs y generar el archivo 'dashboard_datos.csv'.")
