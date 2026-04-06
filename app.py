@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 # Configuración de la página (esto siempre debe ir primero)
-st.set_page_config(page_title="SOC - IA Defensiva", layout="wide", page_icon="🛡️")
+st.set_page_config(page_title="SOC - IA Defensiva", layout="wide")
 
 # Estilo de título y subtítulo
 st.title(" SOC Dashboard - Inteligencia de Amenazas")
